@@ -15,7 +15,7 @@ const Footer = () => {
           />
         </div>
 
-        <div className="flex items-center justify-center lg:gap-[100px] ">
+        <div className="flex lg:flex-row flex-col items-center justify-center lg:gap-[100px] ">
           <div className="flex flex-col items-center gap-4 ">
             <p>Contract</p>
             <p>Tokennomics</p>
@@ -35,7 +35,7 @@ const Footer = () => {
 
           <form className="flex flex-col items-center gap-3">
             <div className="flex flex-col items-center mx-auto mt-5 ">
-              <p className=" lg:max-w-[300px]">
+              <p className=" lg:max-w-[300px] text-center p-2 font-bold">
                 Be the first to know the crypto market pulse with UniCore’s
                 exclusive nesletter
               </p>

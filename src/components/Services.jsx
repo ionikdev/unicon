@@ -5,13 +5,15 @@ const Services = () => {
   return (
     <div className=" flex flex-col justify-center h-auto px-5 mt-10 text-black bg-orange-100 w-[100%] ">
       <div>
-        <p className="text-5xl text-center text-black">Our services</p>
+        <p className="m-2 text-3xl font-bold text-center text-black lg:text-5xl shrink-0">
+          Our services
+        </p>
       </div>
 
       <div className="flex flex-col items-center justify-center p-3 lg:flex-row ">
         <div>
           {" "}
-          <p className="mt-10 text-4xl font-bold text-center lg:mb-10">
+          <p className="mt-10 text-2xl font-bold text-center lg:text-4xl lg:mb-10">
             {" "}
             Sentiment Analysis SA
           </p>
@@ -35,7 +37,7 @@ const Services = () => {
           </div>
         </div>
         <div>
-          <p className="mt-10 mb-10 text-4xl font-bold text-center ">
+          <p className="mt-10 mb-10 text-2xl font-bold text-center lg:text-4xl ">
             Trading Signals
           </p>
           <div className="flex flex-col gap-3 lg:flex-row ">
@@ -61,7 +63,7 @@ const Services = () => {
       <div className="flex flex-col items-center justify-center p-3 lg:flex-row ">
         <div>
           {" "}
-          <p className="mt-10 text-4xl font-bold text-center lg:mb-10">
+          <p className="mt-10 text-2xl font-bold text-center lg:text-4xl lg:mb-10">
             {" "}
             News and Market data
           </p>
@@ -85,7 +87,7 @@ const Services = () => {
           </div>
         </div>
         <div>
-          <p className="mt-10 mb-10 text-4xl font-bold text-center ">
+          <p className="mt-10 mb-10 text-2xl font-bold text-center lg:text-4xl">
             Predictions
           </p>
           <div className="flex flex-col gap-3 lg:flex-row ">

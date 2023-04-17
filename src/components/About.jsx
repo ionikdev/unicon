@@ -6,7 +6,9 @@ const About = () => {
     <div className="text-black bg-orange-100 h-fit">
       <div>
         {" "}
-        <p className="m-10 text-5xl text-center ">About UniCore protocol</p>
+        <p className="m-10 text-2xl font-bold text-center shrink-0 lg:text-5xl ">
+          About <br /> UniCore protocol
+        </p>
       </div>
       <div className="flex flex-col items-center justify-between p-5 lg:flex-row ">
         <div>
