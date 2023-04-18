@@ -4,12 +4,12 @@ import React from "react";
 const Navbar = () => {
   return (
     <nav>
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between p-10">
         <div className="justify-start ">
           <Image src="/logo.png" alt="Logo" width={100} height={100} />
         </div>
 
-        <div className="">
+        <div className="hidden lg:block">
           <ul className="flex items-center justify-center gap-5 ">
             <li>Home</li>
             <li>Services</li>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="w-[100%] ">
+    <div className="w-[100%] header-bg    ">
       <div className="flex flex-col justify-center gap-10 mt-[100px] ">
         <p className="mx-auto text-5xl text-center lg:text-9xl ">
           Empowering AI

@@ -11,10 +11,14 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main className="flex flex-col p-5 lg:p-24">
-      <Navbar />
-      <Header />
-      <Services />
+    <main className="flex flex-col ">
+      <div className=" bg-gradient-to-b from-yellow-500 to-transparent">
+        <Navbar />
+        <Header />
+      </div>
+      <div className="bg-gradient-to-b from-yellow-400 to-transparent">
+        <Services />
+      </div>
       <div className="m-10  lg:max-w-[800px] mx-auto">
         <p>
           Lorem ipsum dolor sit amet consectetur. Nec convallis nunc massa
@@ -22,9 +26,13 @@ export default function Home() {
           Nec convallis nunc massa laoreet.Lorem ipsum dolor sit amet conse
         </p>
       </div>
-      <About />
+      <div className="bg-gradient-to-b from-yellow-400 to-transparent">
+        <About />
+      </div>
       <Socials />
-      <Footer />
+      <div className="bg-yellow-400 ">
+        <Footer />
+      </div>
     </main>
   );
 }
