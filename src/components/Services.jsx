@@ -3,7 +3,7 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div className=" flex flex-col justify-center h-auto px-5 mt-10 text-black bg-orange-100 w-[100%] ">
+    <div className=" flex flex-col justify-center h-auto px-5 mt-10 text-black  w-[100%] ">
       <div>
         <p className="m-2 text-3xl font-bold text-center text-black lg:text-5xl shrink-0">
           Our services

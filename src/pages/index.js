@@ -16,7 +16,7 @@ export default function Home() {
         <Navbar />
         <Header />
       </div>
-      <div className="bg-gradient-to-b from-yellow-400 to-transparent">
+      <div className="bg-gradient-to-b from-orange-100 to-transparent">
         <Services />
       </div>
       <div className="m-10  lg:max-w-[800px] mx-auto">
@@ -26,7 +26,7 @@ export default function Home() {
           Nec convallis nunc massa laoreet.Lorem ipsum dolor sit amet conse
         </p>
       </div>
-      <div className="bg-gradient-to-b from-yellow-400 to-transparent">
+      <div className="bg-gradient-to-b from-orange-100 to-transparent">
         <About />
       </div>
       <Socials />
